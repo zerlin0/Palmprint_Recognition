@@ -12,16 +12,6 @@ This project implements a contactless palmprint recognition system using deep le
 - Per-class metrics and confusion matrix analysis
 - CSV result export and clear log function
 
-## 📂 Project Structure
-
-palmprint-recognition/
-├── scripts/ # Training and evaluation scripts
-├── models/ # Saved model checkpoints
-├── deployment/ # Streamlit app
-├── results/ # Test results (metrics, confusion matrices)
-├── data/ # (Optional) Data or download links
-└── ...
-
 ## 🧠 Model Architectures
 
 - **ResNet50 (Fine-Tuned)**: Initialized with ImageNet weights and retrained on palmprints.
